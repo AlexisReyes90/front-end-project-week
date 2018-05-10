@@ -22,7 +22,7 @@ const backgroundStyle = {
 const modalStyle = {
     backgroundColor: '#fff',
     borderRadius: 5,
-    border: '5 black',
+    // border: '5 black',
     maxWidth: 500,
     mindHeight: 300,
     marginLeft: 450,
