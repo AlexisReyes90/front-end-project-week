@@ -5,12 +5,26 @@ const port = 5000;
 
 const app = express();
 
-let nextId = 4;
+let nextId = 17;
 
 let notes = [
 	{id : 1, title: 'Note', content: 'placeholder'},
 	{id : 2, title: 'Note2', content: 'asejfeasrgergegegergregregegegregergregreglierhgforsejfgwqikgvfikyewvfiykewhvfykhjewvfjykwevfjykewvfykjwehvfyjikewvfyjwvefyuijwvyuijfveyiwjfvwyiefvyiewvfyiwevfyiewvyifvwiyefvyiwefvyiwevyifwyevfiwevfywevfiwevyifvlgfukewrgfkuwgfkuywkjyfgwkjyfgwykjfgyjwqgfeykjuwgefykijghfjehfefejrewrtgege4geggegrgrgergreerregegergegfgerg'},
 	{id : 3, title: 'Note3', content: 'more random text'},
+	{id : 4, title: 'Notebook notes', content: 'more random text'},
+	{id : 5, title: 'nutella', content: 'more random text'},
+	{id : 6, title: 'Alakazam', content: 'more random text'},
+	{id : 7, title: 'Open', content: 'more random text'},
+	{id : 8, title: 'new notes', content: 'more random text'},
+	{id : 9, title: 'willing to buy...', content: 'more random text'},
+	{id : 10, title: 'weekend plans', content: 'more random text'},
+	{id : 11, title: 'going strong...', content: 'more random text'},
+	{id : 12, title: 'Marching', content: 'more random text'},
+	{id : 13, title: 'maple leaves', content: 'more random text'},
+	{id : 14, title: 'Red Sox', content: 'more random text'},
+	{id : 15, title: 'Patriots', content: 'more random text'},
+	{id : 16, title: 'sport', content: 'more random text'},
+
 ];
 
 app.use(bodyParser.json());
